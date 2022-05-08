@@ -6,7 +6,7 @@ Train::Cage* Train::create(bool light) {
   cage->light = light;
   cage->next = nullptr;
   cage->prev = nullptr;
-  return cfge;
+  return cage;
 }
 
 void Train::addCage(bool light) {
